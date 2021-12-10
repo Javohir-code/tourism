@@ -1,0 +1,25 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server1.js",
+  "scripts": {
+    "start": "node server1.js",
+    "dev": "nodemon server1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "net": "^1.0.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
